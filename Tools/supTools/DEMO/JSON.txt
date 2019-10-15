@@ -1,0 +1,8 @@
+
+中控允许人员刷卡出库
+{"Use": "ACSys","OpCode": "R","DeviceID": "0001","CardID": "0002926614","TimeOut": "15","Password": "00000000"}
+
+
+中控允许人员进结算区
+{"Use": "ACSys","OpCode": "Q","DeviceID": "0001","ReturnStatus": "1","Password": "00000000"}
+

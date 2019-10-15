@@ -1,0 +1,16 @@
+{"Section": 2, "Data": "ABCDEF1234567890", "count": 1, "finish": 0}
+
+{"Use": "RFID", "OpCode": "backData", "Section": 2, "delay": 0}
+
+{"Use": "RFID", "OpCode":"Read", "Section": 2, "Data": "30303030312C53463630303131372C4430303030303030303030303134352C3353313530303041303032", "count": 1, "finish": 0}
+
+
+SF600117,D00000000000145,3S15000A002
+
+b00, b01, b02, b03
+6230302C206230312C206230322C20623033
+{"Use": "RFID", "OpCode":"Read", "Section": 2, "Data": "6230302C206230312C206230322C20623033", "count": 1, "finish": 0}
+
+b10, b11, b12, b13
+6231302C206231312C206231322C20623133
+{"Use": "RFID", "OpCode":"Read", "Section": 2, "Data": "6231302C206231312C206231322C20623133", "count": 1, "finish": 1}

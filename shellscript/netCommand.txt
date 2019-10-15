@@ -1,0 +1,4 @@
+Netstat –ano
+
+Netstat –ano|findstr 【<端口号>】,如图，最后一列为PID。
+
